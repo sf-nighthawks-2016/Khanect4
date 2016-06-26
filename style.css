@@ -1,7 +1,12 @@
+* {
+  font-family: fantasy;
+}
+
 .board {
   margin: 0 auto;
   display: table;
   width: 800px;
+  height: 700px;
 }
 
 .column {
@@ -10,4 +15,6 @@
 
 .cell {
 outline: solid red;
+width: 105px;
+height: 120px;
 }
