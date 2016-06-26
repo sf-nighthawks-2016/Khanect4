@@ -1,6 +1,11 @@
 # Khanect4
 - Connect 4 JS
 
+## Team Members
+- Mikey Moore
+- Chris Wong
+- Jonathan Hall
+
 ## MVP Deliverables
 - ~~A user can see a board~~
 - ~~A user can place a piece into a column~~
