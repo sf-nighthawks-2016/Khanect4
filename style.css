@@ -1,0 +1,13 @@
+.board {
+  margin: 0 auto;
+  display: table;
+  width: 800px;
+}
+
+.column {
+  display: table-cell;
+}
+
+.cell {
+outline: solid red;
+}
