@@ -1,21 +1,17 @@
-$(document).ready(function{
-  // turnCounter();
-  $('.board').on('submit', function(event){
-    event.preventDefault();
-    console.log("hello")
-  })
+$(document).ready(function() {
+  turnCounter();
 
 
 });
 
-// function turnCounter() {
-//   var counter = 0;
-//   $('form').on("submit", function(event){
-//       event.preventDefault();
-//       var counter +=1;
-//       console.log(counter);
-//   })
-// }
+function turnCounter() {
+  var counter = 0;
+  $('form').on("submit", function(event){
+      event.preventDefault();
+      counter +=1;
+      console.log(counter);
+  })
+}
 
 
 
