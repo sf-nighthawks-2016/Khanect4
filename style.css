@@ -1,10 +1,19 @@
 * {
   font-family: fantasy;
+  color: white;
+}
+
+body {
+  background-image: url("mongolian_steppes.jpg");
 }
 
 h1 {
   display: inline-block;
 
+}
+
+#quote {
+  align-self: center;
 }
 
 .board {
@@ -19,7 +28,7 @@ h1 {
 }
 
 .cell {
-outline: solid red;
+outline: solid white;
 width: 105px;
 height: 120px;
 }
