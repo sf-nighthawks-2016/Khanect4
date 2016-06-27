@@ -7,9 +7,17 @@ body {
   background-image: url("mongolian_steppes.jpg");
 }
 
-h1 {
-  display: inline-block;
+#heading {
+  text-align: center;
+}
 
+.form-button {
+  width: 8em;
+}
+
+img {
+  border-radius-top-left: 5px;
+  border-radius-top-right: 5px;
 }
 
 #quote {
@@ -19,8 +27,7 @@ h1 {
 .board {
   margin: 0 auto;
   display: table;
-  width: 800px;
-  height: 700px;
+  width: 40%;
 }
 
 .column {
@@ -28,7 +35,8 @@ h1 {
 }
 
 .cell {
-outline: solid white;
-width: 105px;
-height: 120px;
+  border: solid white 0.5px;
+  border-radius: 5px;
+  width: 87px;
+  height: 100px;
 }
